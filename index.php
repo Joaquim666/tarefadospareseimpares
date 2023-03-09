@@ -12,9 +12,9 @@
   $numero = $_GET['number'];
 
   if($numero % 2 == 1)
-   echo "$numero é par";
-  else
    echo "$numero é ímpar";
+  else
+   echo "$numero é par";
  ?>
  </body>
 </html>
